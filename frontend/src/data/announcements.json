@@ -1,0 +1,42 @@
+{
+  "announcements": [
+    {
+      "id": "a1",
+      "title": "School Reopens",
+      "message": "Term 2 begins Monday — all students report by 07:30.",
+      "type": "notice",
+      "imageUrl": "/images/announce-reopen.jpg",
+      "postedBy": "evelyne",
+      "postedAt": "2026-05-20T09:00:00Z",
+      "pinToTop": false,
+      "rotate": true,
+      "durationSec": 8,
+      "visibleOn": ["home","admin"]
+    },
+    {
+      "id": "a2",
+      "title": "Parent Meeting",
+      "message": "Parents of S3 meet Friday 14:00 in the hall.",
+      "type": "event",
+      "imageUrl": "/images/announce-meeting.jpg",
+      "postedBy": "nyiramana",
+      "postedAt": "2026-05-19T12:00:00Z",
+      "pinToTop": true,
+      "rotate": true,
+      "durationSec": 6,
+      "visibleOn": ["home","admin"]
+    },
+    {
+      "id": "a3",
+      "title": "Exam Timetable",
+      "message": "Mock exams start 2026-06-01. Full timetable uploaded.",
+      "type": "alert",
+      "imageUrl": "/images/announce-exams.jpg",
+      "postedBy": "mike",
+      "postedAt": "2026-05-18T08:00:00Z",
+      "pinToTop": false,
+      "rotate": false,
+      "visibleOn": ["admin"]
+    }
+  ]
+}

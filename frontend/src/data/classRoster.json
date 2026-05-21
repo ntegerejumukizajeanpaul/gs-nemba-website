@@ -1,0 +1,331 @@
+{
+  "classes": {
+    "s1A": {
+      "level": "O'Level S1 A",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s1B": {
+      "level": "O'Level S1 B",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s1C": {
+      "level": "O'Level S1 C",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s1D": {
+      "level": "O'Level S1 D",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s1E": {
+      "level": "O'Level S1 E",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s2A": {
+      "level": "O'Level S2 A",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s2B": {
+      "level": "O'Level S2 B",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s2C": {
+      "level": "O'Level S2 C",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s2D": {
+      "level": "O'Level S2 D",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s3A": {
+      "level": "O'Level S3 A",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+    "s3B": {
+      "level": "O'Level S3 B",
+      "subjects": {
+        "Mathematics": "mariage",
+        "English": "jean",
+        "Kinyarwanda": "nyiramana",
+        "Biology": "maria",
+        "Chemistry": "pual",
+        "Physics": "peter",
+        "History": "hohn",
+        "Geography": "mike",
+        "French": "iyve",
+        "ICT": "justin",
+        "CRE": "felex",
+        "Life Skills": "police",
+        "PE": "evelyne"
+      }
+    },
+
+    "elfk_s4": {
+      "level": "A'Level ELFK S4",
+      "subjects": {
+        "English Literature": "jean",
+        "French": "iyve",
+        "Kinyarwanda": "nyiramana",
+        "History": "hohn",
+        "Economics": "mike",
+        "Geography": "maria",
+        "ICT": "justin",
+        "Entrepreneurship": "police",
+        "PE": "evelyne"
+      }
+    },
+    "elfk_s5": {
+      "level": "A'Level ELFK S5",
+      "subjects": {
+        "English Literature": "jean",
+        "French": "iyve",
+        "Kinyarwanda": "nyiramana",
+        "History": "hohn",
+        "Economics": "mike",
+        "Geography": "maria",
+        "ICT": "justin",
+        "Entrepreneurship": "police",
+        "PE": "evelyne"
+      }
+    },
+    "elfk_s6": {
+      "level": "A'Level ELFK S6",
+      "subjects": {
+        "English Literature": "jean",
+        "French": "iyve",
+        "Kinyarwanda": "nyiramana",
+        "History": "hohn",
+        "Economics": "mike",
+        "Geography": "maria",
+        "ICT": "justin",
+        "Entrepreneurship": "police",
+        "PE": "evelyne"
+      }
+    },
+
+    "hehl_s4": {
+      "level": "A'Level HEHL S4",
+      "subjects": {
+        "History": "hohn",
+        "Economics": "mike",
+        "Home Economics": "maria",
+        "English Literature": "jean",
+        "Geography": "peter",
+        "ICT": "justin",
+        "Entrepreneurship": "police",
+        "CRE": "felex",
+        "PE": "evelyne"
+      }
+    },
+    "hehl_s5": {
+      "level": "A'Level HEHL S5",
+      "subjects": {
+        "History": "hohn",
+        "Economics": "mike",
+        "Home Economics": "maria",
+        "English Literature": "jean",
+        "Geography": "peter",
+        "ICT": "justin",
+        "Entrepreneurship": "police",
+        "CRE": "felex",
+        "PE": "evelyne"
+      }
+    },
+    "hehl_s6": {
+      "level": "A'Level HEHL S6",
+      "subjects": {
+        "History": "hohn",
+        "Economics": "mike",
+        "Home Economics": "maria",
+        "English Literature": "jean",
+        "Geography": "peter",
+        "ICT": "justin",
+        "Entrepreneurship": "police",
+        "CRE": "felex",
+        "PE": "evelyne"
+      }
+    },
+
+    "mpc_s4": {
+      "level": "A'Level MPC S4",
+      "subjects": {
+        "Pure Mathematics": "mariage",
+        "Further Mathematics": "pual",
+        "Physics": "peter",
+        "Chemistry": "pual",
+        "Biology": "maria",
+        "ICT": "justin",
+        "English": "jean",
+        "Entrepreneurship": "police",
+        "PE": "evelyne"
+      }
+    },
+    "mpc_s5": {
+      "level": "A'Level MPC S5",
+      "subjects": {
+        "Pure Mathematics": "mariage",
+        "Further Mathematics": "pual",
+        "Physics": "peter",
+        "Chemistry": "pual",
+        "Biology": "maria",
+        "ICT": "justin",
+        "English": "jean",
+        "Entrepreneurship": "police",
+        "PE": "evelyne"
+      }
+    },
+    "mpc_s6": {
+      "level": "A'Level MPC S6",
+      "subjects": {
+        "Pure Mathematics": "mariage",
+        "Further Mathematics": "pual",
+        "Physics": "peter",
+        "Chemistry": "pual",
+        "Biology": "maria",
+        "ICT": "justin",
+        "English": "jean",
+        "Entrepreneurship": "police",
+        "PE": "evelyne"
+      }
+    }
+  }
+}
