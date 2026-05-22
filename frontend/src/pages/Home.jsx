@@ -33,6 +33,15 @@ function Home() {
   });
 
   useEffect(() => {
+    // Normalise any API response shape into a plain array.
+    // Handles: plain array, { data: [...] }, { items: [...] }, null / undefined.
+    function toArray(value) {
+      if (Array.isArray(value)) return value;
+      if (value && Array.isArray(value.items)) return value.items;
+      if (value && Array.isArray(value.data)) return value.data;
+      return [];
+    }
+
     async function load() {
       try {
         const [annRes, newsRes, galleryRes] = await Promise.all([
@@ -40,11 +49,14 @@ function Home() {
           api.get("/news?limit=3"),
           api.get("/gallery"),
         ]);
-        setAnnouncements(annRes.data || []);
-        setLatestNews(newsRes.data || []);
-        setGalleryItems(galleryRes.data || []);
+        console.log("[Home] /announcements response:", annRes.data);
+        console.log("[Home] /news response:", newsRes.data);
+        console.log("[Home] /gallery response:", galleryRes.data);
+        setAnnouncements(toArray(annRes.data));
+        setLatestNews(toArray(newsRes.data));
+        setGalleryItems(toArray(galleryRes.data));
       } catch (error) {
-        console.error(error);
+        console.error("[Home] Failed to load page data:", error);
       } finally {
         setLoading(false);
       }
