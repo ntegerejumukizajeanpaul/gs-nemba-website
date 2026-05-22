@@ -34,27 +34,45 @@ function Home() {
 
   useEffect(() => {
     // Normalise any API response shape into a plain array.
-    // Handles: plain array, { data: [...] }, { items: [...] }, null / undefined.
+    // Handles: plain array, { items: [...], total: N }, { data: [...] },
+    // null / undefined, or any other unexpected shape.
     function toArray(value) {
+      if (value == null) return [];
       if (Array.isArray(value)) return value;
-      if (value && Array.isArray(value.items)) return value.items;
-      if (value && Array.isArray(value.data)) return value.data;
+      if (Array.isArray(value.items)) return value.items;
+      if (Array.isArray(value.data)) return value.data;
       return [];
     }
 
     async function load() {
       try {
-        const [annRes, newsRes, galleryRes] = await Promise.all([
+        const [annResult, newsResult, galleryResult] = await Promise.allSettled([
           api.get("/announcements"),
           api.get("/news?limit=3"),
           api.get("/gallery"),
         ]);
-        console.log("[Home] /announcements response:", annRes.data);
-        console.log("[Home] /news response:", newsRes.data);
-        console.log("[Home] /gallery response:", galleryRes.data);
-        setAnnouncements(toArray(annRes.data));
-        setLatestNews(toArray(newsRes.data));
-        setGalleryItems(toArray(galleryRes.data));
+
+        const annData =
+          annResult.status === "fulfilled" ? annResult.value.data : null;
+        const newsData =
+          newsResult.status === "fulfilled" ? newsResult.value.data : null;
+        const galleryData =
+          galleryResult.status === "fulfilled" ? galleryResult.value.data : null;
+
+        console.log("[Home] /announcements response:", annData);
+        console.log("[Home] /news response:", newsData);
+        console.log("[Home] /gallery response:", galleryData);
+
+        setAnnouncements(toArray(annData));
+        setLatestNews(toArray(newsData));
+        setGalleryItems(toArray(galleryData));
+
+        if (annResult.status === "rejected")
+          console.error("[Home] /announcements failed:", annResult.reason);
+        if (newsResult.status === "rejected")
+          console.error("[Home] /news failed:", newsResult.reason);
+        if (galleryResult.status === "rejected")
+          console.error("[Home] /gallery failed:", galleryResult.reason);
       } catch (error) {
         console.error("[Home] Failed to load page data:", error);
       } finally {
