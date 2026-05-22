@@ -6,11 +6,25 @@ export default defineConfig({
   server: {
     port: 5173,
     strictPort: true,
+    // Proxy /api to the local backend during development only.
+    // In production, VITE_API_URL points directly to the Railway backend.
     proxy: {
       '/api': {
         target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false
+      }
+    }
+  },
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom'],
+          ui: ['framer-motion', 'react-icons']
+        }
       }
     }
   }
